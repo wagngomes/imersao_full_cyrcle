@@ -7,8 +7,17 @@ POST http://localhost:3000/events
 Content-Type: application/json
 
 {
-    "name": "evento_1",
+    "name": "evento_2",
     "description": "este é o primeiro evento",
-    "date": "2017-01-01T00:00:00.000Z",
-    "price": 100   
+    "date": "2017-01-09T00:00:00.000Z",
+    "price": 300   
+}
+
+
+###
+POST http://localhost:3000/events/887cc0c0-6da1-4fca-911a-aba47d490291/spots
+Content-Type: application/json
+
+{
+    "name": "A4"
 }
